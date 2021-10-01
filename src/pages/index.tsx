@@ -34,16 +34,16 @@ const Home = () => {
 
       <div className='w-full text-gray-900 p-4'>
         <div className='sticky text-lg font-bold pt-4'>Pixel Paint</div>
-        <div className="flex flex-row">
+        <div className="flex flex-row select-none">
           <Dots onChange={(data) => { setDot(data) }} />
         </div>
-        <div className='sticky text-lg font-bold pt-4'>Pixel Move</div>
+        {/* <div className='sticky text-lg font-bold pt-4'>Pixel Move</div>
         <div className="flex flex-row">
           <div className="relative" style={{ height: '200px' }}>
             {charElement && charElement()}
           </div>
         </div>
-        <div className="fixed bottom-0 right-0 p-10">{controller && controller()}</div>
+        <div className="fixed bottom-0 right-0 p-10">{controller && controller()}</div> */}
       </div>
     </div>
   );
