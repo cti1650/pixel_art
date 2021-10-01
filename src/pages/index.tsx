@@ -39,7 +39,7 @@ const Home = () => {
         </div>
         <div className='sticky text-lg font-bold pt-4'>Pixel Move</div>
         <div className="flex flex-row">
-          <div className="relative">
+          <div className="relative" style={{ height: '200px' }}>
             {charElement && charElement()}
           </div>
         </div>

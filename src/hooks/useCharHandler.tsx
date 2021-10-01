@@ -43,7 +43,7 @@ export const useCharHandler = (char, option = {}) => {
   }, []);
   const charElement = useCallback(() => {
     return char ? (<div style={{
-      top: - h, left: x,
+      bottom: h, left: x,
     }
     } className="absolute flex flex-row" >
       <div className="w-20" onMouseDown={moveLeft}></div>
