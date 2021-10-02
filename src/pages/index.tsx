@@ -29,12 +29,12 @@ const Home = () => {
     <div className='container max-w-screen-md mx-auto text-sans'>
       <Head>
         <title>Pixel Art</title>
-        <meta property='og:title' content='Tailwind CC' />
+        <meta property='og:title' content='Pixel Art' />
       </Head>
 
-      <div className='w-full text-gray-900 p-4'>
+      <div className='w-full content-center text-gray-900 p-4'>
         <div className='sticky text-lg font-bold pt-4'>Pixel Paint</div>
-        <div className="flex flex-row select-none">
+        <div className="select-none">
           <Dots onChange={(data) => { setDot(data) }} />
         </div>
         {/* <div className='sticky text-lg font-bold pt-4'>Pixel Move</div>
